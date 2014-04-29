@@ -1,5 +1,7 @@
 .section {
     color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #fixedHeader {
@@ -99,8 +101,6 @@
 
 .section-summary {
     background-color: #B3E099;
-    padding-top: 40px;
-    padding-bottom: 40px;
     color: #444;
 }
 
@@ -121,8 +121,6 @@
 }
 
 .section-recommendations {
-    padding-top: 40px;
-    padding-bottom: 40px;
     background-color: #D14334;
     color: white;
 }
@@ -130,8 +128,6 @@
 .section-work-exp {
     background-color: #FFEAAD;
     color: #444;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .section-work-exp a {
