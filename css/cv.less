@@ -1,3 +1,9 @@
+@section1: #028F76;
+@section2: #1C2130;
+@section3: #B3E099;
+@section4: #FFEAAD;
+@section5: #D14334;
+
 .section {
     color: white;
     padding-top: 40px;
@@ -31,7 +37,7 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: #028F76;
+    background-color: @section1;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -58,9 +64,9 @@
     }
 }
 .section-contact {
-    background-color: #1C2130;
+    background-color: @section2;
     .fa-inverse {
-        color: #1C2130;
+        color: @section2;
     }
 }
 .icons {
@@ -74,7 +80,7 @@
     font-size: 6em;
 }
 .section-summary {
-    background-color: #B3E099;
+    background-color: @section3;
     color: #444;
     p {
         font-size: 1.2em;
@@ -84,7 +90,7 @@
     }
 }
 .section-recommendations {
-    background-color: #D14334;
+    background-color: @section5;
     color: white;
     img {
         float:left;
@@ -95,15 +101,15 @@
     }
 }
 .section-work-exp {
-    background-color: #FFEAAD;
+    background-color: @section4;
     color: #444;
     a {
-        color: #D14334;
-        border-bottom: 1px dotted #D14334;
+        color: @section5;
+        border-bottom: 1px dotted @section5;
     }
     a:hover {
-        color: #D14334;
-        border-bottom: 1px dotted #D14334;
+        color: @section5;
+        border-bottom: 1px dotted @section5;
     }
     h2 {
         color: #444;

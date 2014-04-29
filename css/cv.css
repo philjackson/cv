@@ -31,7 +31,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  background-color: #028F76;
+  background-color: #028f76;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -58,10 +58,10 @@
   padding-bottom: 40px;
 }
 .section-contact {
-  background-color: #1C2130;
+  background-color: #1c2130;
 }
 .section-contact .fa-inverse {
-  color: #1C2130;
+  color: #1c2130;
 }
 .icons {
   text-align: center;
@@ -74,7 +74,7 @@
   font-size: 6em;
 }
 .section-summary {
-  background-color: #B3E099;
+  background-color: #b3e099;
   color: #444;
 }
 .section-summary p {
@@ -84,7 +84,7 @@
   color: #444;
 }
 .section-recommendations {
-  background-color: #D14334;
+  background-color: #d14334;
   color: white;
 }
 .section-recommendations img {
@@ -95,16 +95,16 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 .section-work-exp {
-  background-color: #FFEAAD;
+  background-color: #ffeaad;
   color: #444;
 }
 .section-work-exp a {
-  color: #D14334;
-  border-bottom: 1px dotted #D14334;
+  color: #d14334;
+  border-bottom: 1px dotted #d14334;
 }
 .section-work-exp a:hover {
-  color: #D14334;
-  border-bottom: 1px dotted #D14334;
+  color: #d14334;
+  border-bottom: 1px dotted #d14334;
 }
 .section-work-exp h2 {
   color: #444;
