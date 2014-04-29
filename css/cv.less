@@ -4,6 +4,19 @@
 @section4: #FFEAAD;
 @section5: #D14334;
 
+@light-text: #eee;
+@dark-text: #444;
+
+.radial-grad(@start, @finish) {
+    background: @start; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  @start 0%, @finish 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,@start), color-stop(100%,@finish)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  @start 0%,@finish 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  @start 0%,@finish 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  @start 0%,@finish 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  @start 0%,@finish 100%); /* W3C */
+}
+
 .section {
     color: white;
     padding-top: 40px;
@@ -14,22 +27,12 @@
         font-size: 3em;
         padding-bottom: 30px;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-        color: white;
     }
     h1 {
         text-align: center;
         font-family: 'Niconne', cursive;
         font-size: 8em;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    }
-    a {
-        color: white;
-        text-decoration: none;
-        border-bottom: 1px dotted white;
-    }
-    a:hover {
-        color: #ddd;
-        text-decoration: none;
     }
 }
 #fixedHeader {
@@ -47,14 +50,15 @@
         font-family: 'Niconne', cursive;
         font-size: 3em;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-        color: white;
+        color: contrast(@section1, @dark-text, @light-text);
         padding: 2px;
         margin: 2px;
     }
 }
 .section-header {
-    background-color: #028F76;
+    background-color: @section1;
     text-align: center;
+    .radial-grad(lighten(@section1, 15%), @section1);
     h1 {
         padding-top: 40px;
     }
@@ -65,6 +69,18 @@
 }
 .section-contact {
     background-color: @section2;
+    color: contrast(@section2, @dark-text, @light-text);
+
+    a {
+        color: contrast(@section2, @dark-text, @light-text);
+        text-decoration: none;
+        border-bottom: 1px dotted contrast(@section2, @dark-text, @light-text);
+    }
+    a:hover {
+        text-decoration: none;
+        border-bottom: 0px;
+    }
+
     .fa-inverse {
         color: @section2;
     }
@@ -81,17 +97,17 @@
 }
 .section-summary {
     background-color: @section3;
-    color: #444;
+    color: contrast(@section3, @dark-text, @light-text);
     p {
         font-size: 1.2em;
     }
     h2 {
-        color: #444;
+        color: contrast(@section3, @dark-text, @light-text);
     }
 }
 .section-recommendations {
     background-color: @section5;
-    color: white;
+    color: contrast(@section5, @dark-text, @light-text);
     img {
         float:left;
         margin-right: 10px;
@@ -102,17 +118,9 @@
 }
 .section-work-exp {
     background-color: @section4;
-    color: #444;
-    a {
-        color: @section5;
-        border-bottom: 1px dotted @section5;
-    }
-    a:hover {
-        color: @section5;
-        border-bottom: 1px dotted @section5;
-    }
+    color: contrast(@section4, @dark-text, @light-text);
     h2 {
-        color: #444;
+        color: contrast(@section4, @dark-text, @light-text);
     }
     img {
         margin-right: 10px;
