@@ -1,204 +1,159 @@
 .section {
-    color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
-#fixedHeader {
-    display: none;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    background-color: #028F76;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    z-index: 999;
-    text-align: center;
-}
-
-#fixedHeader h1 {
-    font-family: 'Niconne', cursive;
-    font-size: 3em;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    color: white;
-    padding: 2px;
-    margin: 2px;
-}
-
 .section h2 {
-    text-align: center;
-    font-family: 'Niconne', cursive;
-    font-size: 3em;
-    padding-bottom: 30px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    color: white;
+  text-align: center;
+  font-family: 'Niconne', cursive;
+  font-size: 3em;
+  padding-bottom: 30px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  color: white;
 }
-
 .section h1 {
-    text-align: center;
+  text-align: center;
+  font-family: 'Niconne', cursive;
+  font-size: 8em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
-
-.section-header {
-    background-color: #028F76;
-    background: rgba(93,176,158,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(93,176,158,1) 0%, rgba(2,143,117,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(93,176,158,1)), color-stop(100%, rgba(2,143,117,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(93,176,158,1) 0%, rgba(2,143,117,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(93,176,158,1) 0%, rgba(2,143,117,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(93,176,158,1) 0%, rgba(2,143,117,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(93,176,158,1) 0%, rgba(2,143,117,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db09e', endColorstr='#028f75', GradientType=1 );
-    text-align: center;
-}
-
-.section-header h1 {
-    padding-top: 40px;
-}
-
-.section h1 {
-    font-family: 'Niconne', cursive;
-    font-size: 8em;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-}
-
-.section-header h2 {
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    padding-bottom: 40px;
-}
-
-.section-contact {
-    background-color: #1C2130;
-}
-
-.section-contact .fa-inverse {
-    color: #1C2130;
-}
-
-.icons {
-    text-align: center;
-    padding: 20px;
-}
-
-.contact {
-    margin-bottom: 5px;
-}
-
-.fa-6x {
-    font-size: 6em;
-}
-
 .section a {
-    color: white;
-    text-decoration: none;
-    border-bottom: 1px dotted white;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
 }
-
 .section a:hover {
-    color: #ddd;
-    text-decoration: none;
+  color: #ddd;
+  text-decoration: none;
 }
-
+#fixedHeader {
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #028F76;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 999;
+  text-align: center;
+}
+#fixedHeader h1 {
+  font-family: 'Niconne', cursive;
+  font-size: 3em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 2px;
+  margin: 2px;
+}
+.section-header {
+  background-color: #028F76;
+  text-align: center;
+}
+.section-header h1 {
+  padding-top: 40px;
+}
+.section-header h2 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  padding-bottom: 40px;
+}
+.section-contact {
+  background-color: #1C2130;
+}
+.section-contact .fa-inverse {
+  color: #1C2130;
+}
+.icons {
+  text-align: center;
+  padding: 20px;
+}
+.contact {
+  margin-bottom: 5px;
+}
+.fa-6x {
+  font-size: 6em;
+}
 .section-summary {
-    background-color: #B3E099;
-    color: #444;
+  background-color: #B3E099;
+  color: #444;
 }
-
 .section-summary p {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
-
 .section-summary h2 {
-    color: #444;
+  color: #444;
 }
-
-.section-recommendations img {
-    float:left;
-    margin-right: 10px;
-    border: 1px solid white;
-    border-radius:5px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-}
-
 .section-recommendations {
-    background-color: #D14334;
-    color: white;
+  background-color: #D14334;
+  color: white;
 }
-
+.section-recommendations img {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
 .section-work-exp {
-    background-color: #FFEAAD;
-    color: #444;
+  background-color: #FFEAAD;
+  color: #444;
 }
-
 .section-work-exp a {
-    color: #D14334;
-    border-bottom: 1px dotted #D14334;
+  color: #D14334;
+  border-bottom: 1px dotted #D14334;
 }
-
 .section-work-exp a:hover {
-    color: #D14334;
-    border-bottom: 1px dotted #D14334;
+  color: #D14334;
+  border-bottom: 1px dotted #D14334;
 }
-
 .section-work-exp h2 {
-    color: #444;
+  color: #444;
 }
-
-.recommendation {
-    padding-bottom: 20px;
-}
-
-.rec-name {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.rec-job {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
 .section-work-exp img {
-    margin-right: 10px;
-    width: 100px;
-    height: 100px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
-
 .section-work-exp .job-dates {
-    font-size: 0.8em;
-    padding-bottom: 10px;
+  font-size: 0.8em;
+  padding-bottom: 10px;
 }
-
+.recommendation {
+  padding-bottom: 20px;
+}
+.rec-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.rec-job {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .job {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
-
-.job-title {
-    font-weight: bold;
-}
-
 .job h3 {
-    margin:0px;
+  margin: 0px;
 }
-
+.job-title {
+  font-weight: bold;
+}
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .job-logo {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
