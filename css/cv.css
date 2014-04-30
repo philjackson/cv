@@ -21,7 +21,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  background-color: #1c2130;
+  background-color: #490a3d;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -37,21 +37,21 @@
   margin: 2px;
 }
 .section-header {
-  background-color: #1c2130;
+  background-color: #490a3d;
   text-align: center;
-  background: #384260;
+  background: #8c1375;
   /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #384260 0%, #1c2130 100%);
+  background: -moz-radial-gradient(center, ellipse cover, #8c1375 0%, #490a3d 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #384260), color-stop(100%, #1c2130));
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #8c1375), color-stop(100%, #490a3d));
   /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #384260 0%, #1c2130 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #8c1375 0%, #490a3d 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #384260 0%, #1c2130 100%);
+  background: -o-radial-gradient(center, ellipse cover, #8c1375 0%, #490a3d 100%);
   /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #384260 0%, #1c2130 100%);
+  background: -ms-radial-gradient(center, ellipse cover, #8c1375 0%, #490a3d 100%);
   /* IE10+ */
-  background: radial-gradient(ellipse at center, #384260 0%, #1c2130 100%);
+  background: radial-gradient(ellipse at center, #8c1375 0%, #490a3d 100%);
   /* W3C */
 }
 .section-header h1 {
@@ -62,7 +62,7 @@
   padding-bottom: 40px;
 }
 .section-contact {
-  background-color: #028f76;
+  background-color: #bd1550;
   color: #eeeeee;
 }
 .section-contact a {
@@ -75,7 +75,7 @@
   border-bottom: 0px;
 }
 .section-contact .fa-inverse {
-  color: #028f76;
+  color: #bd1550;
 }
 .icons {
   text-align: center;
@@ -88,17 +88,17 @@
   font-size: 6em;
 }
 .section-summary {
-  background-color: #b3e099;
-  color: #444444;
+  background-color: #e97f02;
+  color: #eeeeee;
 }
 .section-summary p {
   font-size: 1.2em;
 }
 .section-summary h2 {
-  color: #444444;
+  color: #eeeeee;
 }
 .section-recommendations {
-  background-color: #d14334;
+  background-color: #8a9b0f;
   color: #eeeeee;
 }
 .section-recommendations img {
@@ -109,7 +109,7 @@
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 .section-work-exp {
-  background-color: #ffeaad;
+  background-color: #f8ca00;
   color: #444444;
 }
 .section-work-exp h2 {
