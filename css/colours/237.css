@@ -53,6 +53,8 @@
   /* IE10+ */
   background: radial-gradient(ellipse at center, #6f4d43 0%, #3f2c26 100%);
   /* W3C */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .section-header h1 {
   padding-top: 40px;
