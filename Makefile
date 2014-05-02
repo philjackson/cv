@@ -1,4 +1,4 @@
-.PHONY: build watch
+.PHONY: build watch less
 
 all: less build
 
@@ -8,7 +8,5 @@ watch:
 build:
 	jekyll build
 
-less: css/cv.css
-
-%.css: %.less
-	./node_modules/.bin/lessc $< $@
+less: 
+	$(MAKE) -C css/colours
