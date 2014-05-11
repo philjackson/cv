@@ -10,3 +10,4 @@ build:
 
 less: 
 	$(MAKE) -C css/colours
+	$(MAKE) -C css
