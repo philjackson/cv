@@ -93,11 +93,11 @@
 .section-work-exp {
     background-color: @section4;
     color: contrast(@section4, @dark-text, @light-text);
+
     h2 {
         color: contrast(@section4, @dark-text, @light-text);
     }
     img {
-        margin-right: 10px;
         width: 100px;
         height: 100px;
         -webkit-border-radius: 50%;
@@ -107,13 +107,15 @@
         border-radius: 50%;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     }
+
     .job-dates {
         font-size: 0.8em;
-        padding-bottom: 10px;
     }
 
     .job-meta {
         background-color: lighten(@section4, 10%);
+        color: contrast(lighten(@section4, 10%), @dark-text, @light-text);
+
         padding: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
