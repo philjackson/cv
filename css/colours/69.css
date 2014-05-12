@@ -103,6 +103,9 @@
   font-size: 0.8em;
 }
 .section-work-exp .job-meta {
+  padding-bottom: 6px;
+}
+.section-work-exp .job-body {
   background-color: #f52101;
   color: #eeeeee;
   padding: 5px;
