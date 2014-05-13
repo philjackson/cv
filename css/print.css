@@ -18,7 +18,8 @@ body {
 .section-contact {
   text-align: center;
 }
-.job-meta {
+.job-meta,
+.rec-job {
   margin-bottom: 5px;
   border-bottom: 1px solid black;
 }
