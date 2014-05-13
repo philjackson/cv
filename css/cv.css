@@ -163,3 +163,7 @@ img.center {
 .job-logo {
   padding-bottom: 10px;
 }
+
+.center {
+    text-align: center;
+}
