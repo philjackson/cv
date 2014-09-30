@@ -62,3 +62,13 @@ img.center {
 .job-logo {
   padding-bottom: 10px;
 }
+.image-gallery {
+  text-align: center;
+  padding-top: 20px;
+}
+.image-gallery img {
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
