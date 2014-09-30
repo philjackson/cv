@@ -89,7 +89,7 @@
 .section-work-exp h2 {
   color: #eeeeee;
 }
-.section-work-exp img {
+.section-work-exp .job-logo img {
   width: 100px;
   height: 100px;
   -webkit-border-radius: 50%;
