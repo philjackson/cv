@@ -40,10 +40,12 @@
 }
 .section-header h1 {
   padding-top: 40px;
+  color: #eeeeee;
 }
 .section-header h2 {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   padding-bottom: 40px;
+  color: #eeeeee;
 }
 .section-contact {
   background-color: #c78933;
