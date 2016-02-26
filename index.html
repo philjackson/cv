@@ -16,7 +16,7 @@ title: Phil Jackson's cv
     <script src="/js/jquery-1.10.2.min.js"></script>
 
     <link href="/css/basic.css" rel="stylesheet" media="screen">
-    <link href="/css/colours/68.css" rel="stylesheet" media="screen">
+    <link href="/css/colours/89.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
   </head>
 
@@ -43,9 +43,10 @@ title: Phil Jackson's cv
       {% include cv/skills.html %}
 
       <div class="row section section-work-exp">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-10 col-md-offset-1">
           <h2>Work experience</h2>
 
+          {% include cv/we-bc.html %}
           {% include cv/we-apiaxle.html %}
           {% include cv/we-yipgo.html %}
           {% include cv/we-skimlinks.html %}
@@ -86,7 +87,7 @@ title: Phil Jackson's cv
      headerCheck();
      $(window).on("scroll", headerCheck);
 
-     var current_sheet = 68;
+     var current_sheet = 89;
      if (window.location.hash) {
        try {
          current_sheet = parseInt(window.location.hash.substr(1));
@@ -96,7 +97,7 @@ title: Phil Jackson's cv
        };
      }
 
-     $('link[href="/css/colours/68.css"]')
+     $('link[href="/css/colours/89.css"]')
        .attr('href', "/css/colours/" + current_sheet + ".css");
 
      $(document).keydown(function(e) {
