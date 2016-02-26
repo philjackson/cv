@@ -108,6 +108,7 @@
 .section-work-exp .job-body {
   background-color: #2b8588;
   color: #eeeeee;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   padding: 15px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
