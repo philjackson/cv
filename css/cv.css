@@ -5,14 +5,14 @@
 }
 .section h2 {
   text-align: center;
-  font-family: 'Niconne', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   padding-bottom: 30px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 .section h1 {
   text-align: center;
-  font-family: 'Niconne', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 8em;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
@@ -29,7 +29,7 @@
   text-align: center;
 }
 #fixedHeader h1 {
-  font-family: 'Niconne', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   color: #eeeeee;

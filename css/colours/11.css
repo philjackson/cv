@@ -11,8 +11,6 @@
   text-align: center;
 }
 #fixedHeader h1 {
-  font-family: 'Niconne', cursive;
-  font-size: 3em;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   color: #444444;
   padding: 2px;
