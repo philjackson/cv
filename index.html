@@ -85,39 +85,6 @@ title: Phil Jackson's cv
      headerCheck();
      $(window).on("scroll", headerCheck);
 
-     var current_sheet = 98;
-     if (window.location.hash) {
-       try {
-         current_sheet = parseInt(window.location.hash.substr(1));
-       }
-       catch (err) {
-         console.error(err);
-       };
-     }
-
-     $('link[href="/css/colours/98.css"]')
-       .attr('href', "/css/colours/" + current_sheet + ".css");
-
-     $(document).keydown(function(e) {
-       if (e.keyCode === 39) {
-         $('link[href="/css/colours/' + current_sheet + '.css"]')
-            .attr('href', "/css/colours/" + ++current_sheet + ".css");
-         window.location.hash = current_sheet;
-         return e.preventDefault();
-       }
-
-       // left
-       if (e.keyCode === 37) {
-         if (current_sheet === 0) { return e.preventDefault(); }
-
-         $('link[href="/css/colours/' + current_sheet + '.css"]')
-            .attr('href', "/css/colours/" + --current_sheet + ".css");
-         window.location.hash = current_sheet;
-         return e.preventDefault();
-       }
-     })
-   });
-
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
