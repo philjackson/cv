@@ -110,4 +110,4 @@ clean:
 	rm -rf $(CSS)
 
 %.css: %.less
-	../../node_modules/.bin/lessc $< $@
+	less $< $@
